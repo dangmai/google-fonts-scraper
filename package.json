@@ -1,0 +1,31 @@
+{
+  "name": "google-fonts-scraper",
+  "version": "0.1.0",
+  "description": "An utility to scrape Google Webfonts' font-files' URLs from their CSS files",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dangmai/google-fonts-scraper"
+  },
+  "keywords": [
+    "appcache",
+    "node",
+    "google",
+    "webfonts",
+    "fonts"
+  ],
+  "author": "Dang Mai <contact@dangmai.net>",
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "*",
+    "q": "*",
+    "request": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  }
+}
